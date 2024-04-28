@@ -1,22 +1,16 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-
-        <title>Google Classroom</title>
-        <link rel="icon" type="image/x-icon" href="images/favicon.png">
-
-
-    </head>
-
-    <body>
-        <iframe id="myiframe" src="https://shadow-nexus.vercel.app/"></iframe>
-        <script>
-           var iframe = document.getElementById("myiframe");
-           iframe.width = iframe.contentWindow.document.body.scrollWidth;
-           iframe.height = iframe.contentWindow.document.body.scrollHeight;
-        </script>
-    </body>
-
+   <head>
+      <script>
+         window.onload = function() {
+            var iframe = document.getElementById("myiframe");
+            iframe.width = iframe.contentWindow.document.body.scrollWidth;
+            iframe.height = iframe.contentWindow.document.body.scrollHeight;
+         }
+      </script>
+   </head>
+   <body>
+      <iframe id="myiframe" src="https://shadow-nexus.vercel.app/"></iframe>
+   </body>
+</html>
 </html>
